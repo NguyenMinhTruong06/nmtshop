@@ -1,0 +1,186 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1520px;
+
+}
+.icon{
+    width: 20px;
+    cursor: pointer;
+    padding: 1px 1px;
+    border-radius: 10px;
+}
+.khung{
+    display: flex;
+    width: 100%;
+}
+.khung2{
+    margin-left: 20%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    width: 20%;
+    height: 750px;
+    flex-direction: column;
+    position: fixed; left:0; width: 20%;
+    flex: 1 1 auto;
+}
+.menu-1{
+    border: 1px none; 
+    border-radius: 30px;
+    padding: 7px 12px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    
+} 
+.menu-1:hover{
+    background-color: #fafafa;
+}
+#khac{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.sp{
+    width: 80%;
+    max-height: 100%;
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: auto;
+}
+.sp1{
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 1s;
+    margin-top: 20px;
+}
+.s{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.menu-content1 {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 10px 20px 0px;
+    text-align: right;
+    margin-top: 11px;
+    
+}
+.menu-content1 a{
+    color: black;
+    display: block;
+    text-align: left;
+    padding: 12px 16px;
+}
+.menu-1:hover .menu-content1{
+    display: block;  
+    margin-left: 110px;   
+}
+.sp1:hover{
+    border: 1px solid red;
+}
+/* .icon:hover{
+    background-color:  ;
+    
+} */
+.box{
+    position: fixed; top:0; width: 80%;
+    height: 30px;
+    background-color: #060102;
+    display: flex;
+    justify-content: space-between;
+    z-index: 4;
+}
+.box1 {
+    display:flex ;
+    align-items: center;
+    text-align: center;
+    color: #fafafa;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+    margin: 0;
+}
+.row{
+    width: 100%;
+    margin-top: 50px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column; 
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.creataccount{
+    display: flex;
+    margin-left: 350px;
+    margin-top: 230px;
+}
+.creataccount1{
+    width: 480px;
+    height: 320px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    
+}
+.account1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    border-color: red;
+    width: 250px;
+}
+.account2{
+    margin-top: 20px;
+    min-width: 100px;
+    width: 100%;
+    display: block;
+    padding: 7px 10px;
+    border-radius: 4px;
+    border-width: thin;
+    font-weight: 700;
+    color: white;
+    background: black;
+}
+.account3{
+   margin-left: 350px;
+   margin-top: 20px;
+}
+
+.input{
+    outline: none;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-right: 50px;
+}
+.heading-form{
+    margin-top: 20px;
+}
